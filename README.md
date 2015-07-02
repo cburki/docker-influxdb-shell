@@ -4,16 +4,16 @@ Summary
 InfluxDB shell image that allow to execute the influx client shell to interact with a InfluxBD server.
 
 
-Build
------
+Build the image
+---------------
 
 To create this image, execute the following command in the docker-influxdb-shell folder.
 
     docker build -t cburki/influxdb-shell .
 
 
-Run
----
+Run the image
+-------------
 
 When you run this image you could specify the argument of the influx shell tool. Here is an example giving the help argument.
 
